@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /*
+Sitemap: https://staging.tradershub.ninja/about/
+Sitemap: https://staging.tradershub.ninja/contact/

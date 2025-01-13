@@ -1,0 +1,18 @@
+.news .input-container label{
+    color: #FF3399;
+}
+.news .input-container span {
+   color:white;
+}
+.news-container-flex1 .input{
+   text-align: center;
+   width: 130px;
+}
+
+.news-container-flex1 .input-container{
+  padding-right: 80px;
+}
+
+.container-fluid-input{
+   padding-top: 110px;
+}

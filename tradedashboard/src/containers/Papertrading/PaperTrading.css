@@ -1,0 +1,106 @@
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.btnCreatePortfolio {
+  width: 100%;
+  /* height: 30%; */
+  position: absolute;
+  left: 85%;
+}
+
+.btnCreatePortfolio button {
+  width: 13%;
+  min-height: 16%;
+  border: none;
+  border-radius: 2px;
+  background-color: palegreen;
+  font-size: 18px;
+  font-weight: 500;
+  color: #fff;
+  padding: 10px;
+}
+
+.lossPrice h2 {
+  color: red;
+  font-size: 35px;
+}
+
+.buyBtn {
+  width: 50%;
+  height: 20%;
+  background-color: rgb(75, 250, 40);
+  color: #fff;
+  border: none;
+  border-radius: 7%;
+  padding: 7px;
+}
+
+.sellBtn {
+  width: 50%;
+  background-color: rgb(167, 59, 59);
+  color: #fff;
+  border: none;
+  border-radius: 7%;
+  padding: 7px;
+}
+
+.editBtn {
+  width: 50%;
+  background-color: rgb(133 81 31);
+  color: #fff;
+  border: none;
+  padding: 7px;
+}
+
+.availableBtn {
+  width: 100%;
+  height: 20%;
+  background-color: rgb(68, 82, 239);
+  color: #fff;
+  border: none;
+  padding: 7px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.portfolioImg {
+  padding-left: 40px;
+  width: 260px;
+}
+
+.portfolioImg img {
+  border-radius: 10%;
+}
+.btn-stocks {
+  width: 15%;
+  position: absolute;
+  bottom: -200%;
+  right: 5%;
+  transform: translateY(5%);
+  background-color: rgb(255, 255, 255);
+  padding: 7px;
+  border-radius: 5px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.stock-name {
+  color: rgb(183, 60, 60);
+  font-size: 28px;
+  font-weight: 600;
+}
+.no-data-show {
+  position: absolute;
+  left: 55%;
+  top: 50%;
+  font-size: 38px;
+  transform: translate(-50%, 0%);
+}
